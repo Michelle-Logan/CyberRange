@@ -22,7 +22,7 @@
 .USAGE
     Put any usage instructions here.
     Example syntax:
-    PS C:\> .\__remediation_template(STIG-ID-WN10-CC-000197).ps1 
+    PS C:\> .\__remediation_template(STIG-ID-WN10-AU-000580).ps1 
 #>
 
 auditpol /set /subcategory:"{0CCE9210-69AE-11D9-BED3-505054503030}" /failure:enable
