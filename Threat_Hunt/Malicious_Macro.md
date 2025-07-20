@@ -34,13 +34,13 @@ In real attacks, the macro would download and execute a payload using powershell
 |---------------------|------------------------------------------------------------------------------|
 | **Name**| DeviceFileEvents|
 | **Info**|https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-deviceinfo-table|
-| **Purpose**| Used for detecting TOR download and installation, as well as the shopping list creation and deletion. |
+| **Purpose**| Used to detect download or creation of suspicious .xlsm files. |
 
 | **Parameter**       | **Description**                                                              |
 |---------------------|------------------------------------------------------------------------------|
 | **Name**| DeviceProcessEvents|
 | **Info**|https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-deviceinfo-table|
-| **Purpose**| Used to detect the silent installation of TOR as well as the TOR browser and service launching.|
+| **Purpose**| Used to detect Office processes spawning PowerShell or command prompt.|
 
 | **Parameter**       | **Description**                                                              |
 |---------------------|------------------------------------------------------------------------------|
