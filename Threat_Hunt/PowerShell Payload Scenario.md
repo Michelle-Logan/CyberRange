@@ -1,5 +1,5 @@
-# Threat Event (Malicious Office Macro)
-**Suspicious Excel File Delivered via Phishing Email**
+# Threat Event (PowerShell Payload Dropped as Text File)
+**Suspicious PowerShell Script Stored in .txt File and Later Executed**
 
 ## Steps the "Bad Actor" took Create Logs and IoCs:
 1. Create a Malicious Macro File (Safe Simulation)
