@@ -3,29 +3,26 @@
 
 ## Steps the "Bad Actor" took Create Logs and IoCs:
 1. Create a Malicious Macro File (Safe Simulation)
-Open Excel > New Workbook
+   Open Excel > New Workbook
 
-Press ALT + F11 to open the VBA Editor
+   Press ALT + F11 to open the VBA Editor
 
-Insert a new module and paste:
+   Insert a new module and paste:
 
-vb
-Copy
-Edit
-Sub AutoOpen()
+   ```vb
+   Sub AutoOpen()
     MsgBox "Payload executing..."
-End Sub
-Save the file as a Macro-Enabled Workbook:
-malicious.xlsm
+   End Sub
+    ```
 
-2. Simulate Payload Execution
-Open the file.
+3. Simulate Payload Execution
+   Open the file.
 
-Click Enable Content when prompted.
+   Click Enable Content when prompted.
 
-The macro runs and displays the message box.
+   The macro runs and displays the message box.
 
-In real attacks, the macro would download and execute a payload using powershell, certutil, or mshta.
+   In real attacks, the macro would download and execute a payload using powershell, certutil, or mshta.
 
 ---
 
